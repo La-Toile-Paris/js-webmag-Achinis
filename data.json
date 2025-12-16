@@ -1,0 +1,217 @@
+{
+  "title": "Système Solaire",
+  "strap": "Planètes, lunes et découvertes",
+  "logo": "assets/images/logo.svg",
+  "cta": {
+    "text": "Explorer l'espace",
+    "label": "S'abonner"
+  },
+  "lead": {
+    "headline": "2025 : missions et observations",
+    "summary": "Science et exploration.",
+    "body": "Les sondes et télescopes dévoilent de nouvelles données.",
+    "date": "1er Décembre 2025",
+    "topic": "Astronomie",
+    "author": "Morgane",
+    "imageHero": "assets/texture/texture1.jpg",
+    "rating": 4.7,
+    "views": 10900,
+    "read": "7 min",
+    "tags": [
+      "missions",
+      "télescopes"
+    ],
+    "titre": "2025 : missions et observations",
+    "description": "Science et exploration.",
+    "corps": "Les sondes et télescopes dévoilent de nouvelles données.",
+    "theme": "Astronomie",
+    "auteur": "Morgane"
+  },
+  "stories": [
+    {
+      "headline": "Planètes",
+      "summary": "Portraits et singularités.",
+      "body": "De Saturne à Mars.",
+      "date": "28 Novembre 2025",
+      "topic": "Planètes",
+      "author": "Sara",
+      "image": "assets/texture/texture2.png",
+      "rating": 4.6,
+      "views": 8800,
+      "read": "6 min",
+      "titre": "Planètes",
+      "description": "Portraits et singularités.",
+      "corps": "De Saturne à Mars.",
+      "theme": "Planètes",
+      "auteur": "Sara"
+    },
+    {
+      "headline": "Lunes et océans",
+      "summary": "Mystères et géologies.",
+      "body": "Indices de vie.",
+      "date": "25 Novembre 2025",
+      "topic": "Lunes",
+      "author": "Morgane",
+      "image": "assets/texture/texture3.jpg",
+      "rating": 4.4,
+      "views": 7600,
+      "read": "5 min",
+      "titre": "Lunes et océans",
+      "description": "Mystères et géologies.",
+      "corps": "Indices de vie.",
+      "theme": "Lunes",
+      "auteur": "Morgane"
+    },
+    {
+      "headline": "Sondes et télescopes",
+      "summary": "Technologies et données.",
+      "body": "Optiques et spectres.",
+      "date": "20 Novembre 2025",
+      "topic": "Outils",
+      "author": "Ivan",
+      "image": "assets/texture/texture4.jpg",
+      "rating": 4.3,
+      "views": 7200,
+      "read": "5 min",
+      "titre": "Sondes et télescopes",
+      "description": "Technologies et données.",
+      "corps": "Optiques et spectres.",
+      "theme": "Outils",
+      "auteur": "Ivan"
+    },
+    {
+      "headline": "Énigmes et hypothèses",
+      "summary": "Signals et anomalies.",
+      "body": "Interprétations.",
+      "date": "16 Novembre 2025",
+      "topic": "Mystères",
+      "author": "Morgane",
+      "image": "assets/texture/texture5.jpg",
+      "rating": 4.5,
+      "views": 8600,
+      "read": "6 min",
+      "titre": "Énigmes et hypothèses",
+      "description": "Signals et anomalies.",
+      "corps": "Interprétations.",
+      "theme": "Mystères",
+      "auteur": "Morgane"
+    },
+    {
+      "headline": "Explorations à venir",
+      "summary": "Missions planifiées.",
+      "body": "Calendriers et objectifs.",
+      "date": "12 Novembre 2025",
+      "topic": "Exploration",
+      "author": "Sara",
+      "image": "assets/texture/texture6.jpg",
+      "rating": 4.2,
+      "views": 6400,
+      "read": "4 min",
+      "titre": "Explorations à venir",
+      "description": "Missions planifiées.",
+      "corps": "Calendriers et objectifs.",
+      "theme": "Exploration",
+      "auteur": "Sara"
+    }
+  ],
+  "topics": [
+    {
+      "title": "Lunes",
+      "desc": "Mystères et géologies.",
+      "icon": "🌙",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#8B5CF6",
+      "nom": "Lunes",
+      "description": "Mystères et géologies."
+    },
+    {
+      "title": "Planètes",
+      "desc": "Portraits et singularités.",
+      "icon": "🪐",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#3B82F6",
+      "nom": "Planètes",
+      "description": "Portraits et singularités."
+    },
+    {
+      "title": "Outils",
+      "desc": "Sondes et télescopes.",
+      "icon": "🔭",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#10B981",
+      "nom": "Outils",
+      "description": "Sondes et télescopes."
+    },
+    {
+      "title": "Mystères",
+      "desc": "Signals et anomalies.",
+      "icon": "❓",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#F59E0B",
+      "nom": "Mystères",
+      "description": "Signals et anomalies."
+    },
+    {
+      "title": "Exploration",
+      "desc": "Missions planifiées.",
+      "icon": "🚀",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#EF4444",
+      "nom": "Exploration",
+      "description": "Missions planifiées."
+    },
+    {
+      "title": "Données",
+      "desc": "Analyses et spectres.",
+      "icon": "📈",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#6B7280",
+      "nom": "Données",
+      "description": "Analyses et spectres."
+    }
+  ],
+  "contributors": [
+    {
+      "firstName": "Morgane",
+      "expertise": "Exploratrice astro",
+      "bio": "Vulgarisation et veille.",
+      "avatar": "assets/texture/texture7.jpg",
+      "email": "morgane@astro.com",
+      "articles": 16,
+      "followers": 4100,
+      "prenom": "Morgane",
+      "nom": "",
+      "typeExperience": "Exploratrice astro",
+      "presentation": "Vulgarisation et veille.",
+      "image": "assets/texture/texture7.jpg"
+    },
+    {
+      "firstName": "Ivan",
+      "expertise": "Astrophysicien",
+      "bio": "Données et instruments.",
+      "avatar": "assets/texture/texture7.jpg",
+      "email": "ivan@observatoire.org",
+      "articles": 14,
+      "followers": 3700,
+      "prenom": "Ivan",
+      "nom": "Petrov",
+      "typeExperience": "Astrophysicien",
+      "presentation": "Données et instruments.",
+      "image": "assets/texture/texture7.jpg"
+    },
+    {
+      "firstName": "Sara",
+      "expertise": "Ingénieure",
+      "bio": "Sondes et missions.",
+      "avatar": "assets/texture/texture7.jpg",
+      "email": "sara@spaceagency.org",
+      "articles": 15,
+      "followers": 3900,
+      "prenom": "Sara",
+      "nom": "Lopez",
+      "typeExperience": "Ingénieure",
+      "presentation": "Sondes et missions.",
+      "image": "assets/texture/texture7.jpg"
+    }
+  ]
+}
