@@ -13,7 +13,7 @@
     "date": "1er Décembre 2025",
     "topic": "Astronomie",
     "author": "Morgane",
-    "imageHero": "assets/texture/texture1.jpg",
+    "imageHero": "assets/images/space/Hubble_Space_Telescope.jpg",
     "rating": 4.7,
     "views": 10900,
     "read": "7 min",
@@ -35,7 +35,7 @@
       "date": "28 Novembre 2025",
       "topic": "Planètes",
       "author": "Sara",
-      "image": "assets/texture/texture2.png",
+      "image": "assets/images/space/Saturn_and_Titan.jpg",
       "rating": 4.6,
       "views": 8800,
       "read": "6 min",
@@ -52,7 +52,7 @@
       "date": "25 Novembre 2025",
       "topic": "Lunes",
       "author": "Morgane",
-      "image": "assets/texture/texture3.jpg",
+      "image": "assets/images/space/perseverance-selfie-at-cheyava.gif",
       "rating": 4.4,
       "views": 7600,
       "read": "5 min",
@@ -69,7 +69,7 @@
       "date": "20 Novembre 2025",
       "topic": "Outils",
       "author": "Ivan",
-      "image": "assets/texture/texture4.jpg",
+      "image": "assets/images/space/large.jpg",
       "rating": 4.3,
       "views": 7200,
       "read": "5 min",
@@ -86,7 +86,7 @@
       "date": "16 Novembre 2025",
       "topic": "Mystères",
       "author": "Morgane",
-      "image": "assets/texture/texture5.jpg",
+      "image": "assets/images/space/Webb-2.jpeg",
       "rating": 4.5,
       "views": 8600,
       "read": "6 min",
@@ -103,7 +103,7 @@
       "date": "12 Novembre 2025",
       "topic": "Exploration",
       "author": "Sara",
-      "image": "assets/texture/texture6.jpg",
+      "image": "assets/images/space/spacex.jpg",
       "rating": 4.2,
       "views": 6400,
       "read": "4 min",
@@ -175,7 +175,7 @@
       "firstName": "Morgane",
       "expertise": "Exploratrice astro",
       "bio": "Vulgarisation et veille.",
-      "avatar": "assets/texture/texture7.jpg",
+      "avatar": "assets/images/Pfp/Momo.jpg",
       "email": "morgane@astro.com",
       "articles": 16,
       "followers": 4100,
@@ -183,13 +183,13 @@
       "nom": "",
       "typeExperience": "Exploratrice astro",
       "presentation": "Vulgarisation et veille.",
-      "image": "assets/texture/texture7.jpg"
+      "image": "assets/images/Pfp/Momo.jpg"
     },
     {
       "firstName": "Ivan",
       "expertise": "Astrophysicien",
       "bio": "Données et instruments.",
-      "avatar": "assets/texture/texture7.jpg",
+      "avatar": "assets/images/Pfp/stan.png",
       "email": "ivan@observatoire.org",
       "articles": 14,
       "followers": 3700,
@@ -197,13 +197,13 @@
       "nom": "Petrov",
       "typeExperience": "Astrophysicien",
       "presentation": "Données et instruments.",
-      "image": "assets/texture/texture7.jpg"
+      "image": "assets/images/Pfp/stan.png"
     },
     {
       "firstName": "Sara",
       "expertise": "Ingénieure",
       "bio": "Sondes et missions.",
-      "avatar": "assets/texture/texture7.jpg",
+      "avatar": "assets/images/Pfp/cat.jpg",
       "email": "sara@spaceagency.org",
       "articles": 15,
       "followers": 3900,
@@ -211,7 +211,7 @@
       "nom": "Lopez",
       "typeExperience": "Ingénieure",
       "presentation": "Sondes et missions.",
-      "image": "assets/texture/texture7.jpg"
+      "image": "assets/images/Pfp/cat.jpg"
     }
   ]
 }

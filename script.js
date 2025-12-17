@@ -22,26 +22,32 @@ let strap = data.strap ;
 strapContainer.innerHTML += strap ;
 
       // TODO 2: REMPLIR LA NAVIGATION
+
 let navBarre = document.getElementById("themes-nav") ;
+let buttonAll =`<button class="nav-theme-btn" id="btnAll">Tous</button>`
 
 function navContainer(topics) { 
 
 let nav = topics.title ;
-let button = `<button class="nav-theme-btn"> ${nav} </button>`
+let navIcon = topics.icon ;
+let button = `<button class="nav-theme-btn">${navIcon} ${nav}</button>` ;
 
-navBarre.innerHTML += button
-}
+navBarre.innerHTML += button ;
+} ;
+
+navBarre.innerHTML += buttonAll ;
 
 function afficherNav(array) {
         journal.topics.forEach(element => {
   navContainer(element)
 });
-      };
+};
       
-afficherNav(journal)
+afficherNav(journal) ;
 
 
       // TODO 3: REMPLIR L'ARTICLE PRINCIPAL
+
 let heroContainer = document.getElementById("article-principal") ;
 let hero = data.lead ;
 
@@ -62,34 +68,34 @@ function showLead(lead) {
                 </p>                
                 <button class="read-article-btn">lire l'Article</button></div>` ;
 //pk ça centre pas tout
-  heroContainer.innerHTML += leadArticle
+  heroContainer.innerHTML += leadArticle ;
 }
-showLead(hero)
+showLead(hero) ;
 
       // TODO 4: REMPLIR LA GRILLE D'ARTICLES
-let storiesContainer = document.getElementById("articles-grid")
-let stories = data.stories
+
+let storiesContainer = document.getElementById("articles-grid") ;
+let stories = data.stories ;
 
 function showStory(story) {
-  let storyImage = story.image
-  let storyTitle = story.titre
-  let storyBody = story.body
-  let storyDescription = story.description
-  let storyAuthor = story.author
-  let storyDate = story.date
-
-  let storyCard = `<div class="article-card">               
+  let storyImage = story.image ;
+  let storyTitle = story.titre ;
+  let storyBody = story.body ;
+  let storyDescription = story.description ;
+  let storyAuthor = story.author ;
+  let storyDate = story.date ;
+  let storyCard = `<div class="article-card">              
                 <img src="${storyImage}" alt="Image de ${storyTitle}">
                 <div class="article-content">
-                  <h3 class="theme-badge">${storyTitle}</h3>  
+                  <h2 class="theme-badge">${storyTitle}</h2>  
                   <h3>${storyDescription}</h3>
                   <p>${storyBody}</p>
                   <p class="article-author">Par ${storyAuthor} · ${storyDate}</p>            
                   <button class="read-btn">Lire l'article</button>
                 </div>
-              </div>`
+              </div>` ;
 
-  storiesContainer.innerHTML += storyCard
+  storiesContainer.innerHTML += storyCard ;
 }
 
 stories.forEach(element => {
@@ -97,54 +103,56 @@ stories.forEach(element => {
 });
 
       // TODO 5: REMPLIR LES THEMES
+
 let themesContainer = document.getElementById("themes-list")
-let themes = data.topics
+let themes = data.topics ;
 
 function showTheme(theme) {
-  let themeImage = theme.image
-  let themeTitle = theme.title
-  let themeIcon = theme.icon
-  let themeDescription = theme.description
+  let themeTitle = theme.title ;
+  let themeIcon = theme.icon ;
+  let themeDescription = theme.description ;
 
-  let themesCard = `<div class="theme-item">               
-                <img src="${themeImage}" alt="Image de ${themeTitle}">
-                <h3>${themeTitle} ${themeIcon}</h3>
+  let themesCard = `<div class="theme-item">
+                <h1>${themeIcon}</h1>
+                <h3>${themeTitle}</h3>
                 <p>${themeDescription}</p>
               </div>`
 
-  themesContainer.innerHTML += themesCard
+  themesContainer.innerHTML += themesCard ;
 }
 
 themes.forEach(element => {
   showTheme(element)
 });
+
       // TODO 6: REMPLIR LES AUTEURS
 
-let authorContainer = document.getElementById("authors-list")
-let author = data.contributors
+let authorContainer = document.getElementById("authors-list") ;
+let author = data.contributors ;
 
 function showAuthor(author) {
-  let authorImage = author.image
-  let authorName = author.firstName
-  let authorRole = author.expertise
-  let authorBio = author.bio
-  let authorStats = author.articles
-  let authorFollowers = author.followers
+  let authorImage = author.image ;
+  let authorName = author.firstName ;
+  let authorRole = author.expertise ;
+  let authorBio = author.bio ;
+  let authorStats = author.articles ;
+  let authorFollowers = author.followers ;
 
   let authorCard = `<div class="author-card">               
                 <img class="author-image" src="${authorImage}" alt="Photo de ${authorName}">
                 <h3>${authorName}</h3>
                 <p class="author-role">${authorRole}</p>
                 <p class="author-bio">${authorBio}</p>
+                <p>Articles <br>${authorStats}</p>
+                <p>Followers <br>${authorFollowers}</p>
                 <p class="author-socials">
-                  <p>Articles <br>${authorStats}</p>
-                  <p>Followers <br>${authorFollowers}</p>
                   <a href="#">📷 Instagram</a>
-                  <a href="#"> Twitter</a>
+                  <a href="#">🕊️ Twitter</a>
+                  <a href="#">💼 LinkedIn</a>
                 </p>
-              </div>`
+              </div>` ;
            
-  authorContainer.innerHTML += authorCard
+  authorContainer.innerHTML += authorCard ;
 }
 
 author.forEach(element => {
@@ -152,6 +160,28 @@ author.forEach(element => {
 });
 
       // TODO 7: REMPLIR LE BOUTON CALL TO ACTION
+
+let ctaContainer = document.getElementById("call-to-action") ;
+let cta = data.cta ;
+
+function showCta(cta) {
+  
+  let ctaText = cta.text
+  let ctaLabel = cta.label
+
+  let ctaCard = `<p>${ctaText}</p>
+              <button class="cta-button">${ctaLabel}</button>`
+
+  ctaContainer.innerHTML += ctaCard ;
+
+  let ctaAlert = document.querySelector(".cta-button") ;
+ctaAlert.addEventListener("click", function () {
+  alert("Merci pour votre abonnement");
+})
+
+}
+
+showCta(cta) ;
 
       /// FIN DU CODE
      })
@@ -164,4 +194,3 @@ author.forEach(element => {
  // Alert quand on appuie sur le bouton CTA
  // Fonction de filtrage par thème
  // Classer les articles par popularité ou notation
- 

@@ -1,13 +1,13 @@
 /* CSS VARIABLES */
 :root {
    /* Colors */
-   --color-primary: #2a2a2a;
-   --color-secondary: #666;
+   --color-primary: #76eadc;
+   --color-secondary: #3ba195;
    --color-white: #fff;
    
    /* Backgrounds */
    --bg-light: #f5f5f5;
-   --bg-lighter: #ddd;
+   --bg-lighter: #d0fffa;
    
    /* Text */
    --text-dark: #2a2a2a;
